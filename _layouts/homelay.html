@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<div class="container my-4">
+
+  <!-- Two columns: profile + about me -->
+  <div class="row align-items-start">
+    <!-- Left Column: Profile photo + contact info -->
+    <div class="col-md-4 text-center" id="profile-column">
+      <img src="/images/inst/DomePlan.jpg" alt="Your Name" class="img-fluid rounded-circle mb-3" style="max-width: 200px;">
+      
+      <div class="personal-info text-start mt-3">
+      <h3 style="text-align: left;">Contact</h3>
+      <p style="text-align: left;">
+      INRIA Centre d'Université Côte d'Azur<br>
+      Bâtiment Galois, Bureau G24<br>
+      2004 Route des Lucioles<br>
+      06092 Valbonne, France
+      </p>
+      <p style = "text-align: left;"><strong>Email:</strong> <a href="mailto:lucas.palazzolo@inria.fr">lucas.palazzolo@inria.fr</a></p>
+
+        
+        <div class="social-links mt-2" style="text-align: left;">
+          <a href="https://fr.linkedin.com/in/lucas-palazzolo-727289220" target="_blank" class="me-3">
+            <i class="bi bi-linkedin" style="font-size: 1.5rem;"></i>
+          </a>
+          <a href="https://github.com/Luplz" target="_blank" class="me-3">
+            <i class="bi bi-github" style="font-size: 1.5rem;"></i>
+          </a>
+             <!-- Google Scholar -->
+          <a href="https://scholar.google.com/citations?user=hWZkWDMAAAAJ&hl=fr" target="_blank" class="me-3">
+            <img src="/images/icons/google-scholar.svg" alt="Google Scholar" style="width: 1.5rem; height: 1.5rem;">
+          </a>
+        </div>
+      </div>
+    </div>
+
+<!-- Right Column: About Me -->
+<div class="col-md-8" id="about-column">
+  <h1>About Me</h1>
+  <p style="text-align: justify;">
+    I am a third-year Ph.D. student in the 
+    <a href="https://team.inria.fr/calisto/" target="_blank">Calisto team</a>
+    at 
+    <a href="https://www.inria.fr/fr/centre-inria-universite-cote-azur" target="_blank">Inria Université Côte d’Azur</a>,
+    working under the supervision of 
+    <a href="https://www-sop.inria.fr/members/Laetitia.Giraldi/index.html" target="_blank">Laetitia Giraldi</a>
+    and 
+    <a href="https://sites.google.com/site/mickaelbinoishomepage/" target="_blank">Mickaël Binois</a>.
+    My research is supported by the 
+    <a href="https://anr.fr/Projet-ANR-21-CE45-0013" target="_blank">ANR NEMO</a> project and focuses on the
+    <strong>shape optimization and optimal control of microswimmers</strong> using 
+    <strong>Bayesian optimization</strong> methods.
+  </p>
+</div>
+
+
+<figure class="fifth">
+  <a href="https://www.inria.fr/" target="_blank">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/inr_logo_rouge.svg" style="width: 130px">
+  </a>
+  <a href="https://team.inria.fr/calisto/" target="_blank">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Calisto_logo_fbs_blue.png" style="width: 140px">
+  </a>
+</figure>
+</div>  
+
+  <!-- Move the Markdown content BELOW both columns -->
+  <div class="row mt-5">
+    <div class="col-12">
+      {{ content }}
+    </div>
+  </div>
+
+
+</div>

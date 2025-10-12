@@ -1,0 +1,19 @@
+- number: 1
+  title: "Parametric shape optimization of flagellated microswimmers using Bayesian techniques"
+  authors: "L. Palazzolo, M. Binois, L. Berti, L. Giraldi"
+  description: "Understanding and optimizing the design of helical microswimmers is crucial for advancing their application in various fields. This study presents an innovative approach combining Free-Form Deformation with Bayesian Optimization to enhance the shape of these swimmers. Our method facilitates the computation of generic swimmer shapes that achieve optimal average speed and efficiency. Applied to both monoflagellated and biflagellated swimmers, our optimization framework has led to the identification of new optimal shapes. These shapes are compared with biological counterparts, highlighting a diverse range of swimmers, including both *pushers* and *pullers*."
+  image : ""
+  highlight: 0
+  link1:
+     url: "https://doi.org/10.1103/PhysRevFluids.10.034101"
+     display: "Phys. Rev. Fluids (2025)"
+  link2:
+     url: "https://hal.science/hal-04699705v2"
+     display: "HAL"
+
+- number: 2
+  title: "Modeling Biological Systems"
+  authors: "L. Palazzolo, B. Scientist"
+  link1:
+     url: "https://doi.org/10.xxxxx/another"
+     display: "Journal"
