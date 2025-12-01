@@ -6,7 +6,8 @@ sitemap: false
 permalink: /teaching/
 ---
 
-### Teaching
+---
+### Teaching (mettre les heures !!!)
 ---
 
 #### 2024–2025
@@ -21,7 +22,7 @@ permalink: /teaching/
 
 ---
 
-### Supervision
+### Supervision (Nom étudiant (nb mois), subject, puis master1 csmi avec lien)
 ---
 
 #### 2025

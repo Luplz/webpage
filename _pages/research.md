@@ -7,11 +7,14 @@ permalink: /research/
 ---
 
 
-# Publications
+---
+### Publications
+---
 
-## Preprints
+#### Preprints
+.
 
-## Published articles
+#### Published articles
 
 <div class="publications">
 {% for publi in site.data.publist %}
@@ -28,8 +31,29 @@ permalink: /research/
 </div>
 
 
+---
+### Communications
+---
 
-# Comunications
+
+#### 2025
+- **[SAMO 2025](https://samo2025.sciencesconf.org/)** (April 2025), Grenoble, France  
+  *Poster:* [*Parametric Shape Optimization of Flagellated Microswimmers Using Bayesian Techniques*](https://hal.science/hal-05010013)  
+
+- **EDSFA Workshop** (May 2025), CEMEF, Sophia Antipolis, France  
+  *Poster:* [*Parametric Shape Optimization of Flagellated Microswimmers Using Bayesian Techniques*](https://hal.science/hal-05010013)  
+
+- **Groupe de travail “Étude du magnétoswimmer”** (September 2025), UFR de Mathématiques, Strasbourg, France  
+  *Talk:* *Tracking Trajectories of the N-Links Model*  
+
+
+
+#### 2024
+- **Groupe de travail “Modélisation de la micronatation”** (March 2024), UFR de Mathématiques, Strasbourg, France  
+  *Talk:* *Shape Optimization of Flagellated Microswimmers with Bayesian Techniques*  
+
+- **[PGMO Days 2024](https://fondation-hadamard.fr/media/filer_public/a4/f7/a4f795b0-1a5a-4efb-a327-c44887361100/pgmo-2024-booklet1.pdf)** (November 2024), EDF Labs, Paris-Saclay, France  
+  *Talk:* *Parametric Shape Optimization of Flagellated Microswimmers Using Bayesian Techniques*  
 
 
 
