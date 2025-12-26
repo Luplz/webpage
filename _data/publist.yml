@@ -4,6 +4,7 @@
   description: "Understanding and optimizing the design of helical microswimmers is crucial for advancing their application in various fields. This study presents an innovative approach combining Free-Form Deformation with Bayesian Optimization to enhance the shape of these swimmers. Our method facilitates the computation of generic swimmer shapes that achieve optimal average speed and efficiency. Applied to both monoflagellated and biflagellated swimmers, our optimization framework has led to the identification of new optimal shapes. These shapes are compared with biological counterparts, highlighting a diverse range of swimmers, including both *pushers* and *pullers*."
   image : ""
   highlight: 0
+  preprint: 0
   link1:
      url: "https://doi.org/10.1103/PhysRevFluids.10.034101"
      display: "Phys. Rev. Fluids (2025)"
@@ -12,8 +13,13 @@
      display: "HAL"
 
 - number: 2
-  title: "Modeling Biological Systems"
-  authors: "L. Palazzolo, B. Scientist"
+  title: "Non-Locally Controllable but Trackable Magnetic Head Flagellated Swimmer"
+  authors: "L. Palazzolo, M. Binois, L. Giraldi"
+  description: "Unlike macroscopic swimmers, microswimmers operate in a low-Reynolds-number regime dominated by viscous forces. This paper investigates the controllability of a magnetic microswimmer composed of a spherical magnetic head and an elastic, non-magnetic flagellum. The swimmer evolves in a Stokes flow and is modeled using the resistive force theory. We prove that, under planar motion, the system is not small-time locally controllable and numerically identify regions that remain inaccessible. Nevertheless, simulations show that trajectory tracking can still be achieved via Bayesian optimization, though it requires large-amplitude transverse deformations."
+  image : ""
+  highlight: 0
+  preprint: 1
   link1:
-     url: "https://doi.org/10.xxxxx/another"
-     display: "Journal"
+     url: "https://arxiv.org/abs/2511.02535"
+     display: "arXiv (2025)"
+

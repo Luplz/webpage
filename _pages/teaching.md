@@ -7,7 +7,7 @@ permalink: /teaching/
 ---
 
 ---
-### Teaching (mettre les heures !!!)
+### Teaching 
 ---
 
 #### 2024–2025
@@ -22,13 +22,13 @@ permalink: /teaching/
 
 ---
 
-### Supervision (Nom étudiant (nb mois), subject, puis master1 csmi avec lien)
+### Supervision 
 ---
 
 #### 2025
-- **Master 1 CSMI, Strasbourg** – Research internship of **Antoine Ruch**  
+- **Master 1 [CSMI](https://csmi.cemosis.fr/fr/csmi/index.html), Strasbourg** (2 mois) – Research internship of **Antoine Ruch**  
   *Control and path planning strategies of microswimmers*
 
 #### 2024
-- **Master 1 CSMI, Strasbourg** – Research internship of **Komi Joseph Béni Assigbe**  
+- **Master 1 [CSMI](https://csmi.cemosis.fr/fr/csmi/index.html), Strasbourg** (2 mois) – Research internship of **Komi Joseph Béni Assigbe**  
   *Study of the N-links model for monoflagellated microswimmers*  
