@@ -2,7 +2,7 @@
 title: "Lucas Palazzolo - Home"
 layout: homelay
 excerpt: ""
-sitemap: false
+sitemap: true
 permalink: /
 ---
 
