@@ -8,7 +8,10 @@ layout: default
   <div class="row align-items-start">
     <!-- Left Column: Profile photo + contact info -->
     <div class="col-md-4 text-left" id="profile-column">
-      <img src="/images/photoprofil.jpg" alt="Your Name" class="img-fluid rounded-circle mb-3" style="max-width: 200px;">
+        <img src="{{ '/images/photoprofil.jpg' | prepend: site.baseurl | prepend: site.url }}" 
+            alt="Your Name" 
+            class="img-fluid rounded-circle mb-3" 
+            style="max-width: 200px;">
       
       <div class="personal-info text-start mt-3">
       <h3 style="text-align: left;">Contact</h3>
@@ -27,10 +30,11 @@ layout: default
           </a>
           <a href="https://github.com/Luplz" target="_blank" class="me-3">
             <i class="bi bi-github" style="font-size: 2.5rem;"></i>
-          </a>
-             <!-- Google Scholar -->
+          </a>      
           <a href="https://scholar.google.com/citations?user=hWZkWDMAAAAJ&hl=fr" target="_blank" class="me-3">
-            <img src="/images/icons/google-scholar.svg" alt="Google Scholar" style="width: 2.5rem; height: 2.5rem;">
+            <img src="{{ '/images/icons/google-scholar.svg' | prepend: site.baseurl | prepend: site.url }}" 
+                alt="Google Scholar" 
+                style="width: 2.5rem; height: 2.5rem;">
           </a>
         </div>
       </div>

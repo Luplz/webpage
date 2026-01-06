@@ -11,9 +11,8 @@ permalink: /
 My PhD focuses on mathematical modeling and optimization with applications to the study of microswimmers, microscopic organisms or synthetic micro-robots capable of self-propulsion in fluid environments. Microswimmers, such as bacteria or flagellated micro-robots, operate in regimes where viscous forces dominate. Understanding and optimizing their movement has important implications for biomedical engineering, targeted drug delivery, and micro-robotic design. In my work, I employ Bayesian optimization techniques to address high-dimensional and computationally expensive optimization problems, such as:
 </div>
 
-- **Shape optimization** of microswimmers to maximize velocity and propulsion efficiency <a href="/research/#pub-1">[1]</a>.
-
-- **Trajectory tracking** and **optimal control** of flagellated swimmers in complex fluid environments <a href="/research/#pub-2">[2]</a>.
+- **Shape optimization** of microswimmers to maximize velocity and propulsion efficiency <a href="{{ '/research/#pub-1' | prepend: site.baseurl }}">[1]</a>.
+- **Trajectory tracking** and **optimal control** of flagellated swimmers in complex fluid environments <a href="{{ '/research/#pub-2' | prepend: site.baseurl }}">[2]</a>.
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
   <video style="width: 45%; height: auto;" controls autoplay loop muted>
