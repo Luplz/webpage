@@ -8,10 +8,14 @@ layout: default
   <div class="row align-items-start">
     <!-- Left Column: Profile photo + contact info -->
     <div class="col-md-4 text-left" id="profile-column">
-        <img src="{{ '/images/photoprofil.jpg' | prepend: site.baseurl | prepend: site.url }}" 
-            alt="Your Name" 
-            class="img-fluid rounded-circle mb-3" 
-            style="max-width: 200px;">
+      <div class="profile-pic mb-3" style="
+     width: 200px;
+     height: 200px;
+     background-image: url('{{ '/images/photoprofil.jpg' | prepend: site.baseurl | prepend: site.url }}');
+     background-size: cover;
+     background-position: center;
+     border-radius: 15px;">
+</div>
       
       <div class="personal-info text-start mt-3">
       <h3 style="text-align: left;">Contact</h3>
