@@ -1,17 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Lucas Palazzolo webpage
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+description: > 
   Website of Lucas Palazzolo.
-baseurl: ""
-url: ""
+baseurl: "/webpage"       
+url: "https://Luplz.github.io" 
 
 include:
   - .htaccess
@@ -20,16 +13,13 @@ include:
 sass:
   sass_dir: _sass
 
-# Conversion
+
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -39,4 +29,4 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+  parse_block_html: true
