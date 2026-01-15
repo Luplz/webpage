@@ -17,7 +17,9 @@ permalink: /research/
 {% for publi in site.data.publist %}
   {% if publi.preprint == 1 %}
   <p id="pub-{{ publi.number }}">
-    [{{ publi.number }}] {{ publi.title }} <br>
+    [{{ publi.number }}]
+     <span class="toggle" onclick="toggleDesc('{{ publi.number }}')">▶</span> 
+    {{ publi.title }} <br>
     {{ publi.authors }} 
      {% if publi.link2 %}
       — <a href="{{ publi.link1.url }}">{{ publi.link1.display }}</a> • <a href="{{ publi.link2.url }}">{{ publi.link2.display }}</a>
@@ -25,6 +27,9 @@ permalink: /research/
       — <a href="{{ publi.link1.url }}">{{ publi.link1.display }}</a>
     {% endif %}
   </p>
+  <div class="description" id="desc-{{ publi.number }}" style="display:none;">
+  {{ publi.description | markdownify }}
+</div>
  {% endif %}
 {% endfor %}
 </div>
@@ -35,17 +40,23 @@ permalink: /research/
 {% for publi in site.data.publist %}
   {% if publi.preprint == 0 %}
   <p id="pub-{{ publi.number }}">
-    [{{ publi.number }}] {{ publi.title }} <br>
-    {{ publi.authors }} 
+    [{{ publi.number }}]
+    <span class="toggle" onclick="toggleDesc('{{ publi.number }}')">▶</span>
+    {{ publi.title }} <br>
+    {{ publi.authors }}
      {% if publi.link2 %}
       — <a href="{{ publi.link1.url }}">{{ publi.link1.display }}</a> • <a href="{{ publi.link2.url }}">{{ publi.link2.display }}</a>
     {% else %}
       — <a href="{{ publi.link1.url }}">{{ publi.link1.display }}</a>
     {% endif %}
   </p>
+  <div class="description" id="desc-{{ publi.number }}" style="display:none;">
+  {{ publi.description | markdownify }}
+</div>
  {% endif %}
 {% endfor %}
 </div>
+
 
 ---
 ### Communications
@@ -73,3 +84,31 @@ permalink: /research/
 
 
 
+<script>
+function toggleDesc(pubNumber) {
+  const desc = document.getElementById('desc-' + pubNumber);
+  const toggle = desc.previousElementSibling.querySelector('.toggle');
+
+  if (desc.style.display === 'none') {
+    desc.style.display = 'block';
+    toggle.textContent = '▼'; // change triangle down
+  } else {
+    desc.style.display = 'none';
+    toggle.textContent = '▶'; // change triangle right
+  }
+}
+</script>
+
+<style>
+.toggle {
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+  color:  rgb(11, 131, 63);   /* your green */
+}
+.description {
+  padding-left: 20px;
+  color: #555;
+}
+
+</style>

@@ -47,6 +47,21 @@ firstp {
   margin-right: auto;
 }
 
+
+/* Make all links green, including https, mailto, and internal anchors */
+a[href^="https://"],
+a[href^="mailto:"],
+a[href^="{{ site.baseurl }}/"] {  /* internal links on your site */
+  color: rgb(11, 131, 63); 
+  text-decoration: none; /* optional */
+}
+
+a[href^="https://"]:hover,
+a[href^="mailto:"]:hover,
+a[href^="{{ site.baseurl }}/"]:hover {
+  text-decoration: underline; /* optional hover effect */
+}
+
 /* Home, News */
 #newsid p {
 	text-align: left;
