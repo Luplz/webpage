@@ -1,8 +1,8 @@
 # Site settings
 title: Lucas Palazzolo webpage
 email: your-email@domain.com
-description: > 
-  Website of Lucas Palazzolo.
+description: Personal website of Lucas Palazzolo. Research, projects, publications, and contact information.
+
 baseurl: "/webpage"       
 url: "https://Luplz.github.io" 
 
