@@ -1,7 +1,7 @@
 ---
 title: "Lucas Palazzolo - Home"
 layout: homelay
-excerpt: ""
+excerpt:  "Personal website of Lucas Palazzolo. Research, projects, publications, and contact information."
 sitemap: true
 permalink: /
 ---
