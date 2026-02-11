@@ -12,7 +12,7 @@ My PhD focuses on mathematical modeling and optimization with applications to th
 </div>
 
 - **Shape optimization** of microswimmers to maximize velocity and propulsion efficiency <a href="{{ '/research/#pub-1' | prepend: site.baseurl }}">[1]</a>.
-- **Trajectory tracking** and **optimal control** of flagellated swimmers in complex fluid environments <a href="{{ '/research/#pub-2' | prepend: site.baseurl }}">[2]</a>.
+- **Trajectory tracking** and **optimal control** of flagellated swimmers in complex fluid environments <a href="{{ '/research/#pub-2' | prepend: site.baseurl }}">[2]</a>,<a href="{{ '/research/#pub-3' | prepend: site.baseurl }}">[3]</a>.
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
   <video style="width: 45%; height: auto;" controls autoplay loop muted>

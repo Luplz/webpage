@@ -23,3 +23,13 @@
      url: "https://arxiv.org/abs/2511.02535"
      display: "arXiv (2025)"
 
+- number: 3
+  title: "Optimal Control of Microswimmers for Trajectory Tracking Using Bayesian Optimization"
+  authors: "L. Palazzolo, M. Binois, L. Giraldi"
+  description: "Trajectory tracking for microswimmers remains a key challenge in microrobotics, where low-Reynolds-number dynamics make control design particularly complex. In this work, we formulate the trajectory tracking problem as an optimal control problem and solve it using a combination of B-spline parametrization with Bayesian optimization, allowing the treatment of high computational costs without requiring complex gradient computations. Applied to a flagellated magnetic swimmer, the proposed method reproduces a variety of target trajectories, including biologically inspired paths observed in experimental studies. We further evaluate the approach on a three-sphere swimmer model, demonstrating that it can adapt to and partially compensate for wall-induced hydrodynamic effects. The proposed optimization strategy can be applied consistently across models of different fidelity, from low-dimensional ODE-based models to high-fidelity PDE-based simulations, showing its robustness and generality. These results highlight the potential of Bayesian optimization as a versatile tool for optimal control strategies in microscale locomotion under complex fluid-structure interactions."
+  image : ""
+  highlight: 0
+  preprint: 1
+  link1:
+     url: "https://arxiv.org/abs/2602.09563"
+     display: "arXiv (2025)"
