@@ -62,6 +62,10 @@ permalink: /research/
 ### Communications
 ---
 
+#### 2026
+- **[MicroSwim 2026](https://www.lebesgue.fr/fr/microSwim26)** (July 2026), Brest, France  
+  *Plenary session:* [*Optimization of Microswimmers by Bayesian Optimization*](https://www.lebesgue.fr/sites/default/files/2026-07/abstract_book%20modelling.pdf)  
+
 
 #### 2025
 - **[SAMO 2025](https://samo2025.sciencesconf.org/)** (April 2025), Grenoble, France  
